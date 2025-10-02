@@ -37,11 +37,17 @@ These ZIP code-level features were sourced from the **[U.S. Census Bureau (2014)
 
 The inclusion of these sociodemographic indicators enhanced the richness of the dataset and, on average, improved model predictive performance by **approximately 16%**. This demonstrates the substantial value of combining **geospatial and demographic information** with property-level features in housing market prediction models.  
 
+<img width="768" height="448" alt="image" src="https://github.com/user-attachments/assets/fab44b51-dcfd-47d0-b556-303ae8de16f9" />
+
+
 ---
 
 ### **Feature Importance Analysis**
 
 An analysis of feature importance revealed that both house-specific and ZIP code-level sociodemographic variables significantly contributed to housing prices. Among the predictors, **grade**, which was based on King County grading system reflecting construction quality and design standards, found as the most contributing factor. This was followed by **target-encoded ZIP code** (where ZIP codes were replaced with their average house prices), **living area square footage (sqft_living)**, **waterfront indicator**, and **percentage of the population with a bachelor’s degree or higher (zipc_bsc_rate)**. Other variables, such as **median household income**, **house age**, and **percentage of families below the poverty line (poverty rate)** had relatively smaller effects.  
+
+<img width="690" height="390" alt="image" src="https://github.com/user-attachments/assets/1bf62090-b701-45a7-9e8c-e3a71e5e5714" />
+
 
 ---
 ---
