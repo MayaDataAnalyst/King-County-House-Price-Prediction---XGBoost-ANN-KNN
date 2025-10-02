@@ -25,7 +25,9 @@ The comparative analysis demonstrated that **XGBoost achieved the highest predic
 
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/cdb2a118-f537-4477-9251-584ca8e7f592" />
 
-<img src="https://github.com/user-attachments/assets/ae9e170d-0edb-4dce-90b6-d08f6ab80b53" width="500" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae9e170d-0edb-4dce-90b6-d08f6ab80b53" width="500" />
+</p>
 
 ---
 
