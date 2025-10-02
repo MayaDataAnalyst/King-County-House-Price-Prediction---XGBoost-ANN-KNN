@@ -52,7 +52,7 @@ An analysis of feature importance revealed that both house-specific and ZIP code
 
 ---
 ---
-## **About Dataset**
+## **## **Dataset Description**
 
 | Variable          | Description                                                                                  | Variable Type   |
 |:------------------|:---------------------------------------------------------------------------------------------|:----------------|
