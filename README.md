@@ -60,7 +60,7 @@ An analysis of feature importance revealed that both house-specific and ZIP code
 
 ---
 ---
-## **## **Dataset Description**
+**## **Dataset Description**
 
 | Variable          | Description                                                                                  | Variable Type   |
 |:------------------|:---------------------------------------------------------------------------------------------|:----------------|
@@ -88,3 +88,36 @@ An analysis of feature importance revealed that both house-specific and ZIP code
 | zipc_income       | ZIP code-level household median income                                                        | Continuous      |
 | zipc_bsc_rate     | ZIP code-level percentage of the population with a bachelor’s degree or higher                | Continuous (%)  |
 | zipc_poverty_rate | ZIP code-level percentage of families below the poverty line                                  | Continuous (%)  |
+
+---
+---
+
+# **RECOMMENDATIONS FOR FUTURE WORK**
+
+As stated earlier, in addition to house-specific features, this project incorporated the following ZIP code-level characteristics when developing the machine learning models:
+
+- **Median household income**  
+- **Percentage of families below the poverty line**  
+- **Percentage of the population with a bachelor’s degree or higher**  
+
+However, other potentially valuable ZIP code- or area-specific features (**such as access to public transit, availability of amenities, and school quality**) were not available. Although this limitation was partially accounted for through target-encoded 'zipcode', adding such additional features could further enhance predictive accuracy. **Future work is therefore recommended to integrate richer geographic and socioeconomic data sources.**
+
+Another promising direction is to apply **prediction models with spatial effects**, such as **conditional autoregressive (CAR)** or **multi-level hierarchical** models. These models assume that properties located within the same geographical unit (e.g., ZIP code, municipality, area) often share similar spatial and sociodemographic characteristics. I have previously applied and published such spatial prediction models in the context of road crash prediction (see Hosseinpour et al. (2018), Hosseinpour et al. (2021) for more details). **Incorporating spatial dependencies into machine learning models could further enhance their predictive performance.**
+
+Finally, the dataset used in this project covered house sales from 2014–2015. To validate and strengthen the findings, **future projects should apply the ML prediction models applied in this work to more recent data.**
+
+---
+
+# **REFERENCES**
+
+Campesato, O. (2023). Python 3 and Feature Engineering.
+
+Galli, S. (2020). Python feature engineering cookbook. Packt Publishing.
+
+Hosseinpour, M., Sahebi, S., Zamzuri, Z. H., Yahaya, A. S., & Ismail, N. (2018). Predicting crash frequency for multi-vehicle collision types using multivariate Poisson-lognormal spatial model: A comparative analysis. *Accident Analysis & Prevention, 118*, 277–288. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0001457518301878)
+
+
+Hosseinpour, M., Madsen, T. K. O., Olesen, A. V., & Lahrmann, H. (2021). An in-depth analysis of self-reported cycling injuries in single and multiparty bicycle crashes in Denmark. *Journal of Safety Research, 77*, 114–124. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0022437521000244)
+
+
+Müller, A. C., & Guido, S. (2016). Introduction to machine learning with Python: A guide for data scientists. O’Reilly Media.
