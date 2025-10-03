@@ -2,7 +2,7 @@
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/4cb95829-b587-4de4-bf29-4227c2f73950" />
 
-<p align="left"><sub>Photo from: The Seattle Times </p>
+<p align="left"><sub>Photo from: The Seattle Times</sub></p>
 
 
 ## **PROJECT SUMMARY**
