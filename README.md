@@ -1,9 +1,7 @@
 # **Enhancing House Price Prediction using ZIP Code Sociodemographic Data: A Case Study in King County, WA**
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/4cb95829-b587-4de4-bf29-4227c2f73950" />
-
 <p align="left"><sub>Photo from: The Seattle Times</sub></p>
-<sub>Photo from: The Seattle Times</sub>
 
 
 ## **PROJECT SUMMARY**
