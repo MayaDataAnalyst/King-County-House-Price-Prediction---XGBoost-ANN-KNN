@@ -1,5 +1,9 @@
 # **Enhancing House Price Prediction using ZIP Code Sociodemographic Data: A Case Study in King County, WA**
 
+![Seattle housing market](https://github.com/user-attachments/assets/4cb95829-b587-4de4-bf29-4227c2f73950)  
+*Source: [The Seattle Times](https://www.seattletimes.com/business/real-estate/seattle-area-homebuyers-skittish-amid-high-rates-economic-uncertainty/)*
+
+
 ## **PROJECT SUMMARY**
 
 The objective of this project was to develop and compare different machine learning algorithms for predicting residential house prices in **King County, Washington**. The primary dataset, which covered housing sales between **May 2014 and May 2015**, included house-specific attributes, such as the number of bedrooms and bathrooms, living area square footage, and lot size.  
